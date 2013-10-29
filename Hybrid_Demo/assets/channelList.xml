@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChannelList>
+	<Channel>
+		<ChannelName>3sat</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_3sat.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>6ter</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_6ter.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>13tv</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_13tv.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>24h</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_24h.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>a3_nordest</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_a3_nordest.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>air</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_air.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>antena3</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_antena3.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>arte</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_arte.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>arte_hd</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_arte_hd.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>arturo</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_arturo.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>bfmtv</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_bfmtv.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>bfm_paris</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_bfmtv.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>bgonair</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_bgonair.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>boing_es</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_boing_es.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>boing_ita</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_boing_ita.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>btv</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_btv.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>canal_plus</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_canal_plus.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>canal_sport</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_canal_sport.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>canal7</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_canal7.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>canal33</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_canal33.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>canale_acqua</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_canale_acqua.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>canale5</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_canale5.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>canale5_hd</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_canale5_hd.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>cartoonito</ChannelName>
+		<ChannelLogo>../android_res/drawable/a_cartoonito.png</ChannelLogo>
+	</Channel>
+</ChannelList>

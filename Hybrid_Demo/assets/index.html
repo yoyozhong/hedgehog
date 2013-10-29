@@ -1,3 +1,31 @@
-<button type="button">Click Me!</button>
-<br><br><br><br>
-<a href="http://www.google.com.hk/">google</a>
+<!doctype html>
+<html>
+<head> 
+<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>list</title><br />
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="action.js"></script>
+</head>
+
+<body>
+	<div id="list" >
+    	<!--title-->
+        <div id="listTitle">Live TV</div>
+        	<div class="toolbar">
+            	<input type="button" name="edit" value="Edit" onClick="editMode()"/>
+           		<div id="deleteChannel" onClick="deleteChannel()"><img src="../android_res/drawable/item_delete.png"			 		/></div>
+            </div>
+            
+        	<hr>
+    	
+        <!--body-->
+        <div id="listBody" >
+			<script>loadChannelList()</script>
+         </div> 
+        <!--foot-->
+        
+    </div>
+
+</body>
+</html>
