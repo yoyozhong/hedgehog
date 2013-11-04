@@ -1,12 +1,14 @@
 // JavaScript Document
 
-function Channel(channelName,channelLogo){
+function Channel(channelName,channelLogo,channelLcn){
 	this.channelName=channelName==null? "NONAME" : channelName;
 	this.channelLogo=channelLogo==null? "../android_res/drawable/video.png" : channelLogo;
+	this.channelLcn=channelLcn==null? " ":channelLcn;
 }
 
 function parseChannelFromXML(xmlFile){
 	var channelList=null;
+	var channelLcn=null;
 	var xmlDoc=loadXML(xmlFile);
     if(xmlDoc!=null){
 		channelList=new Array();
@@ -14,7 +16,8 @@ function parseChannelFromXML(xmlFile){
 		for(var i=0;i<elements.length;i++){
 			 var channelName = elements[i].getElementsByTagName("ChannelName")[0].firstChild.nodeValue;
              var channelLogo = elements[i].getElementsByTagName("ChannelLogo")[0].firstChild.nodeValue; 
-			 var channel=new Channel(channelName,channelLogo); 
+             var channelLcn = elements[i].getElementsByTagName("ChannelLcn")[0].firstChild.nodeValue;
+			 var channel=new Channel(channelName,channelLogo,channelLcn); 
 			 channelList[i]=channel;
 		}
 	}else{
@@ -49,7 +52,7 @@ function loadXML(xmlFile){
 }
 
 function loadChannelList(){
-	var channelList=parseChannelFromXML(hybrid.getChannelXml());
+	var channelList=parseChannelFromXML("channelList.xml");
 	var listBody=document.getElementById("listBody");
 	for(var i=0;i<channelList.length;i++){
 		var channel=channelList[i];
@@ -77,6 +80,10 @@ function createListItem(channel){
 	imgChannelLogo.className="channelLogo";
 	imgChannelLogo.src=channel.channelLogo;
 	
+	var spanChannelLcn=document.createElement("span");
+	spanChannelLcn.className="channelLcn";
+	spanChannelLcn.innerHTML=channel.channelLcn;
+	
 	var spanChannelName=document.createElement("span");
 	spanChannelName.className="channelName";
 	spanChannelName.innerHTML=channel.channelName;
@@ -88,8 +95,10 @@ function createListItem(channel){
 	var hr=document.createElement("hr");
 	
 	span.appendChild(imgChannelLogo);
+	span.appendChild(spanChannelLcn);
 	span.appendChild(spanChannelName);
 	span.appendChild(inputCheckbox);
+	
 	
 	div.appendChild(span);
 	div.appendChild(hr);
