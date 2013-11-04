@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChannelList>
+	<Channel>
+		<ChannelName>3sat</ChannelName>
+		<ChannelLcn>850</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_3sat.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>6ter</ChannelName>
+		<ChannelLcn>2</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_6ter.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>13tv</ChannelName>
+		<ChannelLcn>3</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_13tv.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>24h</ChannelName>
+		<ChannelLcn>4</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_24h.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>a3_nordest</ChannelName>
+		<ChannelLcn>5</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_a3_nordest.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>air</ChannelName>
+		<ChannelLcn>44</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_air.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>antena3</ChannelName>
+		<ChannelLcn>16</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_antena3.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>arte</ChannelName>
+		<ChannelLcn>17</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_arte.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>arte_hd</ChannelName>
+		<ChannelLcn>87</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_arte_hd.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>arturo</ChannelName>
+		<ChannelLcn>23</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_arturo.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>bfmtv</ChannelName>
+		<ChannelLcn>11</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_bfmtv.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>bfm_paris</ChannelName>
+		<ChannelLcn>10</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_bfmtv.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>bgonair</ChannelName>
+		<ChannelLcn>65</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_bgonair.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>boing_es</ChannelName>
+		<ChannelLcn>1</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_boing_es.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>boing_ita</ChannelName>
+		<ChannelLcn>1</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_boing_ita.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>btv</ChannelName>
+		<ChannelLcn>1</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_btv.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>canal_plus</ChannelName>
+		<ChannelLcn>1</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_canal_plus.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>canal_sport</ChannelName>
+		<ChannelLcn>1</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_canal_sport.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>canal7</ChannelName>
+		<ChannelLcn>1</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_canal7.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>canal33</ChannelName>
+		<ChannelLcn>1</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_canal33.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>canale_acqua</ChannelName>
+		<ChannelLcn>1</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_canale_acqua.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>canale5</ChannelName>
+		<ChannelLcn>1</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_canale5.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>canale5_hd</ChannelName>
+		<ChannelLcn>1</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_canale5_hd.png</ChannelLogo>
+	</Channel>
+	
+	<Channel>
+		<ChannelName>cartoonito</ChannelName>
+		<ChannelLcn>1</ChannelLcn>
+		<ChannelLogo>../android_res/drawable/a_cartoonito.png</ChannelLogo>
+	</Channel>
+</ChannelList>
