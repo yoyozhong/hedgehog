@@ -4,6 +4,7 @@ public class Channel {
 	private int serviceId;
 	private int networkId;
 	private int tsId;
+	private int lcn;
 	private String logo;
 	private String channelName;
 	
@@ -43,6 +44,14 @@ public class Channel {
 	
 	public int getServiceId(){
 		return this.serviceId;
+	}
+
+	public int getLcn(){
+		return lcn;
+	}
+	
+	public void setLcn(int lcn){
+		this.lcn=lcn;
 	}
 
 }

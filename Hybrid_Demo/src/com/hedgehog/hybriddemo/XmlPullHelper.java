@@ -44,6 +44,10 @@ public class XmlPullHelper {
 			serializer.text(channel.getLogoPath());
 			serializer.endTag(null, "ChannelLogo");
 			
+			serializer.startTag(null, "ChannelLcn");
+			serializer.text(String.valueOf(channel.getLcn()));
+			serializer.endTag(null, "ChannelLcn");
+			
 			serializer.startTag(null, "TripletId");
 			serializer.text(channel.getTripletIdStr());
 			serializer.endTag(null, "TripletId");

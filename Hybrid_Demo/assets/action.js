@@ -52,7 +52,7 @@ function loadXML(xmlFile){
 }
 
 function loadChannelList(){
-	var channelList=parseChannelFromXML("channelList.xml");
+	var channelList=parseChannelFromXML(hybrid.getChannelXml());
 	var listBody=document.getElementById("listBody");
 	for(var i=0;i<channelList.length;i++){
 		var channel=channelList[i];
