@@ -71,8 +71,9 @@ public class Util {
 				Channel channel = new Channel(networkId, tsId, serviceId);
 				channel.setChannelName(channelName);
 				channel.setLogo(getChannelLogo(channel));
+				channel.setLcn(lcn);
 				list.add(channel);
-				b = null;System.out.println(i);
+				b = null;
 			}
 			File outFile = new File(Environment.getExternalStorageDirectory()
 					+ "/channelList.xml");
