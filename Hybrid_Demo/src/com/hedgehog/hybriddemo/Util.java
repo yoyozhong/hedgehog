@@ -139,7 +139,7 @@ public class Util {
 			e.printStackTrace();
 		}
 		if (logoName == null) {
-			logoName = "video.png";
+			logoName = "icon.png";
 		}
 		return logoName;
 	}

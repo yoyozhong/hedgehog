@@ -7,18 +7,19 @@ function Channel(channelName,channelLogo,channelLcn){
 }
 
 function parseChannelFromXML(xmlFile){
-	var channelList=null;
-	var channelLcn=null;
-	var xmlDoc=loadXML(xmlFile);
-    if(xmlDoc!=null){
-		channelList=new Array();
-		var elements=xmlDoc.getElementsByTagName("Channel");
-		for(var i=0;i<elements.length;i++){
-			 var channelName = elements[i].getElementsByTagName("ChannelName")[0].firstChild.nodeValue;
-             var channelLogo = elements[i].getElementsByTagName("ChannelLogo")[0].firstChild.nodeValue; 
-             var channelLcn = elements[i].getElementsByTagName("ChannelLcn")[0].firstChild.nodeValue;
-			 var channel=new Channel(channelName,channelLogo,channelLcn); 
-			 channelList[i]=channel;
+	var channelList = null;
+	var channelLcn = null;
+	var xmlDoc = loadXML(xmlFile);
+    if(xmlDoc != null){
+		channelList = new Array();
+		var elements = xmlDoc.getElementsByTagName("Channel");
+		var channelName, channelLogo, channelLcn, channel;
+		for(var i = 0; i < elements.length; i++){
+			 channelName = elements[i].getElementsByTagName("ChannelName")[0].firstChild.nodeValue;
+             channelLogo = elements[i].getElementsByTagName("ChannelLogo")[0].firstChild.nodeValue; 
+             channelLcn = elements[i].getElementsByTagName("ChannelLcn")[0].firstChild.nodeValue;
+			 channel = new Channel(channelName, channelLogo, channelLcn);
+			 channelList[i] = channel;
 		}
 	}else{
 		document.writeln("error:parse xml(xmlDoc==null).");
@@ -54,8 +55,9 @@ function loadXML(xmlFile){
 function loadChannelList(){
 	var channelList=parseChannelFromXML(hybrid.getChannelXml());
 	var listBody=document.getElementById("listBody");
+	var channel;
 	for(var i=0;i<channelList.length;i++){
-		var channel=channelList[i];
+		channel=channelList[i];
 		listBody.appendChild(createListItem(channel));
 	}
 }
@@ -73,12 +75,15 @@ function createListItem(channel){
 		changeItemBackground(this,false);
 	}
 	
-	
 	var span=document.createElement("span");
 	
 	var imgChannelLogo=document.createElement("img");
 	imgChannelLogo.className="channelLogo";
 	imgChannelLogo.src=channel.channelLogo;
+	imgChannelLogo.onerror = function(){
+		imgChannelLogo.src = "../android_res/drawable/icon.png"
+		imgChannelLogo.onerror = null;
+	}
 	
 	var spanChannelLcn=document.createElement("span");
 	spanChannelLcn.className="channelLcn";
@@ -98,7 +103,6 @@ function createListItem(channel){
 	span.appendChild(spanChannelLcn);
 	span.appendChild(spanChannelName);
 	span.appendChild(inputCheckbox);
-	
 	
 	div.appendChild(span);
 	div.appendChild(hr);
@@ -141,7 +145,7 @@ function editMode(){
 			}
 			btnDelChannel.style.display="none";
 		}else{
-			for(var i=0;i<listItems.length;i++){
+			for(i=0;i<listItems.length;i++){
 				listItem=listItems[i];
 				checkbox=listItem.getElementsByClassName("checkbox")[0];
 				checkbox.style.display="block";
@@ -153,6 +157,7 @@ function editMode(){
 	}
 	
 }
+
 function deleteChannel(){
 	var listItems=document.getElementsByClassName("listItem");
 	var listBody=document.getElementById("listBody");
@@ -165,7 +170,7 @@ function deleteChannel(){
 			listBody.removeChild(listItem);
 		}
 	}
-	for(var i=0;i<listItems.length;i++){
+	for(i=0;i<listItems.length;i++){
 		listItem=listItems[i];
 		checkbox=listItem.getElementsByClassName("checkbox")[0];
 		checkbox.style.display="none";

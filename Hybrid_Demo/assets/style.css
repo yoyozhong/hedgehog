@@ -17,7 +17,7 @@ body{
 	height:750px;
 }
 .channelLogo{
-	width:48zpx;
+	width:48px;
 	height:48px;
 	vertical-align:middle;
 }
@@ -31,9 +31,8 @@ body{
 	
 }
 .channelName{
-	font:"Arial Black";
 	font-size:20px;
-	width:24zpx;
+	width:24px;
 	height:24px;
 	vertical-align:middle;
 }
@@ -61,4 +60,5 @@ body{
 	display:none; 
 	float:right; 
 	margin-right:10px;	
+	vertical-align: middle;
 }
