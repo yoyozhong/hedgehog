@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
 		
 		webView = (WebView) this.findViewById(R.id.webview);
 		webView.getSettings().setJavaScriptEnabled(true);
-		webView.loadUrl("file:///android_asset/index.html");
+		webView.loadUrl("file:///android_asset/navigation.html");
 		webView.setWebViewClient(new MyWebViewClient());
 		webView.addJavascriptInterface(new InterfaceForJs(), "hybrid");
 	}

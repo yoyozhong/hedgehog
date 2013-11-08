@@ -2,7 +2,7 @@
 
 function Channel(channelName,channelLogo,channelLcn){
 	this.channelName=channelName==null? "NONAME" : channelName;
-	this.channelLogo=channelLogo==null? "../android_res/drawable/video.png" : channelLogo;
+	this.channelLogo=channelLogo==null? "../android_res/drawable/icon.png" : channelLogo;
 	this.channelLcn=channelLcn==null? " ":channelLcn;
 }
 
@@ -153,9 +153,7 @@ function editMode(){
 			}
 			btnDelChannel.style.display="block";
 		}
-		
 	}
-	
 }
 
 function deleteChannel(){
