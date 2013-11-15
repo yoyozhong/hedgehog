@@ -4,27 +4,39 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html" charset="utf-8" />
-<style>
-p,h3{
-	font-family:Tahoma, Geneva, sans-serif;
-	color:#00F;
-	content:inherit;
-	}
-
-
-</style>
+<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div>
-<div align="center"><h3>HotSpot</h3></div>
+<div align="center"><h2 class="hr_line">HotSpot</h2></div>
 <div align="center">
 <form>
-<p>SSID:<input type="text" size="30"/></p>
-<p>PWD:<input type="password" size="30"/><br><br></p>
+  <p>WiFi channel&nbsp;&nbsp;<select>
+<option value="CH 1">CH 1</option>
+<option value="CH 2">CH 2</option>
+<option value="CH 3">CH 3</option>
+<option value="CH 4">CH 4</option>
+<option value="CH 5">CH 5</option>
+<option value="CH 6">CH 6</option>
+<option value="CH 7">CH 7</option>
+<option value="CH 8">CH 8</option>
+<option value="CH 9">CH 9</option>
+<option value="CH 10">CH 10</option>
+<option value="CH 11">CH 11</option>
+</select></p>
+<p>Security&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select>
+<option value="None">None&nbsp;</option>
+<option value="WPA"><a href="WPA">WPA</a></option>/*添加JS文件*/
+</select></p>
+
+
+
+<p>PWD:&nbsp;&nbsp;<a href="#WPA"><input type="password" name="PWD"/></a><br><br></p>
 <p>
 <input name="join" type="submit" id="join" style="width:60px" value="join"  onclick="creadjoin()"/>  &nbsp;&nbsp;&nbsp;
 
-<a href="Setting.html" style="text-decoration:none"><input name="��ť" type="button" value="cancle" onclick="window.location.href='Setting.html'"/>
+<input name="cancle" type="button" value="cancle" onclick="window.location.href='navigation.html'"/>
+
 </p>
 </form>
 </div>
