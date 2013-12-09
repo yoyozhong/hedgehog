@@ -73,6 +73,9 @@ h2{
 	}
 .hr_line{
 	border-bottom:1px #FFFFFF solid;
+	background-image:url(../android_res/drawable/channel_list_bgd.png);
+	background-repeat:repeat-x;
+	margin:-8px -8px 0 -8px;
 	}
 span{
 	font-size:12px;
@@ -90,6 +93,17 @@ strong{
 	color:#036;
 	font-size:24px;
 	}
-p{
+td,p{
 	color:#00F;
 	}
+.button {
+    display:inline-block;
+    margin-left:0 15px 0 -15px;
+    padding: 0;
+    width:80px;
+    height:30px;
+	background-image:url(../Android_res/drawable/preview_button.9.png);
+    border:1px;
+	border-radius:5px;
+    cursor: pointer;
+}

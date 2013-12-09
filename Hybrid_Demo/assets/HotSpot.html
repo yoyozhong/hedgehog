@@ -5,13 +5,25 @@
 <head>
 <meta http-equiv="content-type" content="text/html" charset="utf-8" />
 <link href="style.css" rel="stylesheet" type="text/css" />
+<style>
+p{
+	padding-left:20%;
+	}
+.duiqi{
+	text-align:right;
+	padding-right:15px;
+	 }
+</style>
 </head>
 <body>
 <div>
 <div align="center"><h2 class="hr_line">HotSpot</h2></div>
 <div align="center">
-<form>
-  <p>WiFi channel&nbsp;&nbsp;<select>
+<table>
+<tr>
+<td  class="duiqi" width="50%">WiFi channel</td>
+<td style="padding-left:35px;">
+<select style="width:100px;">
 <option value="CH 1">CH 1</option>
 <option value="CH 2">CH 2</option>
 <option value="CH 3">CH 3</option>
@@ -23,22 +35,28 @@
 <option value="CH 9">CH 9</option>
 <option value="CH 10">CH 10</option>
 <option value="CH 11">CH 11</option>
-</select></p>
-<p>Security&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select>
-<option value="None">None&nbsp;</option>
-<option value="WPA"><a href="WPA">WPA</a></option>/*添加JS文件*/
-</select></p>
+</select>
+</td>
+</tr>
 
+<tr>
+<td class="duiqi">Security</td>
+<td style="padding-left:35px;"><select style="width:100px;">
+<option value="None">None&nbsp;&nbsp;</option>
+<option value="WPA">WPA</option><td height="46">
+</select></td>
+</tr>
 
+<tr>
+<td class="duiqi">PWD:</td>
+<td style="padding-left:35px;"><input type="password" name="PWD" style="width:100%;"/></td>
+</tr>
 
-<p>PWD:&nbsp;&nbsp;<a href="#WPA"><input type="password" name="PWD"/></a><br><br></p>
-<p>
-<input name="join" type="submit" id="join" style="width:60px" value="join"  onclick="creadjoin()"/>  &nbsp;&nbsp;&nbsp;
-
-<input name="cancle" type="button" value="cancle" onclick="window.location.href='navigation.html'"/>
-
-</p>
-</form>
+<tr>
+<td height="127" class="duiqi"><input name="join" type="submit" id="join"  value="join"  onclick="creadjoin()" class="button" /></td>
+<td style="padding-left:35px;"><input name="cancle" type="button" value="cancle" onclick="window.location.href='navigation.html'" class="button"/></td>
+</tr>
+</table>
 </div>
 </div>
 <script>
